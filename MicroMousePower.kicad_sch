@@ -1848,7 +1848,7 @@
 	)
 	(text "higher and lower charging current for the battery (200mA or 600mA ±100mA)"
 		(exclude_from_sim no)
-		(at 213.106 48.26 0)
+		(at 207.772 59.182 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1859,7 +1859,7 @@
 	)
 	(text "USB connection"
 		(exclude_from_sim no)
-		(at 202.692 63.246 0)
+		(at 204.724 67.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2082,6 +2082,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 74.93) (xy 212.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0403c0-a9ef-4cde-8756-7d65891243c3")
+	)
+	(wire
+		(pts
 			(xy 168.91 81.28) (xy 172.72 81.28)
 		)
 		(stroke
@@ -2112,13 +2122,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 215.9 77.47)
+			(xy 212.09 74.93) (xy 212.09 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7702557d-50f4-48ad-8d30-bf25b284be2f")
+		(uuid "721a488a-1a14-4b41-bf08-5aace96e06a8")
 	)
 	(wire
 		(pts
@@ -2142,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 86.36) (xy 215.9 86.36)
+			(xy 207.01 86.36) (xy 212.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 86.36) (xy 215.9 85.09)
+			(xy 212.09 86.36) (xy 212.09 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 62.23) (xy 194.31 74.93)
+			(xy 194.31 72.39) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2259,16 +2269,6 @@
 			(type default)
 		)
 		(uuid "cbb47615-121f-4d79-bf57-31e3cf9cc2c2")
-	)
-	(wire
-		(pts
-			(xy 194.31 74.93) (xy 215.9 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6c3ced-31a9-41d7-a730-54da49d398f3")
 	)
 	(wire
 		(pts
@@ -3219,7 +3219,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 194.31 62.23 0)
+		(at 194.31 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3228,7 +3228,7 @@
 		(fields_autoplaced yes)
 		(uuid "990c782d-37fd-4282-b379-078ff0fca48a")
 		(property "Reference" "#PWR01"
-			(at 194.31 66.04 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3237,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 194.31 57.15 0)
+			(at 194.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 62.23 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 62.23 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 194.31 62.23 0)
+			(at 194.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,16 +3417,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 81.28 180)
+		(at 212.09 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a984d41f-7374-4100-9297-a88d5ab7b16b")
 		(property "Reference" "R2"
-			(at 218.44 80.0099 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3434,7 @@
 			)
 		)
 		(property "Value" "44"
-			(at 218.44 82.5499 0)
+			(at 215.392 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.678 81.28 90)
+			(at 213.868 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3461,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 215.9 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
