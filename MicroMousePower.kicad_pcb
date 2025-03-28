@@ -2609,6 +2609,284 @@
 			)
 		)
 	)
+	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(layer "F.Cu")
+		(uuid "19eb297e-b3eb-411d-9c2c-8080d99aa539")
+		(at 168.2 91.55 90)
+		(descr "module CMS SOT223 4 pins")
+		(tags "CMS SOT")
+		(property "Reference" "U9"
+			(at 0 -4.5 90)
+			(layer "F.SilkS")
+			(uuid "988624c5-a246-489d-bc4e-45bfcd68a05d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TC1262-33"
+			(at 0 4.5 90)
+			(layer "F.Fab")
+			(uuid "7c98e15c-9fc9-487b-bf6a-c14d6293ef9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66a4dac3-987d-463d-963b-84bbe2650d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "500mA Low Dropout CMOS Voltage Regulator, Fixed Output 3.3V, TO-220/SOT-223/TO-263"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82174a33-3c7c-429d-b2a7-badd9ddddbae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C638655"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6ad6402-d27b-4d2e-a2f5-d6218db4d2eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?223* TO?220* TO?263*")
+		(path "/ce7787c4-5382-41bf-952a-1c6df69e1109")
+		(sheetname "/")
+		(sheetfile "MicroMousePower.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.91 -3.41)
+			(end 1.91 -2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb7383c1-4770-4fe8-b3ee-a16a1e9b1791")
+		)
+		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fbbe5cb1-9064-436e-879b-81cc8619c6c6")
+		)
+		(fp_line
+			(start 1.91 3.41)
+			(end 1.91 2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5997a8de-8b1b-4a41-a13c-628536cfaf1d")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00a30f8f-c301-4ca8-9bb3-58aedfdb0615")
+		)
+		(fp_poly
+			(pts
+				(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b5a8d896-caf9-43fa-814a-97b0ab349889")
+		)
+		(fp_line
+			(start 4.4 -3.6)
+			(end -4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81c67c10-55ff-47a1-ae45-d35a8908bc81")
+		)
+		(fp_line
+			(start -4.4 -3.6)
+			(end -4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca4d61d4-c77b-40b6-8bb3-ea193d7bdfe0")
+		)
+		(fp_line
+			(start 4.4 3.6)
+			(end 4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "011e994e-3a8e-46aa-8bd9-ef8331069431")
+		)
+		(fp_line
+			(start -4.4 3.6)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ea3c46c-9b3e-452b-b512-fe89f48e47d4")
+		)
+		(fp_line
+			(start 1.85 -3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce55e448-431a-4b80-82d4-ddccf4cbd681")
+		)
+		(fp_line
+			(start -0.85 -3.35)
+			(end 1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3f802c48-4325-41ff-8161-e3d25b23dc7d")
+		)
+		(fp_line
+			(start -1.85 -2.35)
+			(end -0.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b789b856-b6ce-4725-a894-58f1e134de22")
+		)
+		(fp_line
+			(start -1.85 -2.35)
+			(end -1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7882ea3c-eb9a-40b8-8a8a-03bb1d6f73f4")
+		)
+		(fp_line
+			(start -1.85 3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "547a7087-bceb-4fe9-8d06-031e2a434188")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6bb1403b-2267-4cd2-a2c8-45870fc0dabf")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.15 -2.3 90)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "+BATT")
+			(pinfunction "VI")
+			(pintype "power_in")
+			(uuid "9f59c050-7053-4f93-bdab-028e0823b3ea")
+		)
+		(pad "2" smd roundrect
+			(at -3.15 0 90)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "-BATT")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "340bd6a7-51ad-4f93-a08b-a21a97acee2e")
+		)
+		(pad "2" smd roundrect
+			(at 3.15 0 90)
+			(size 2 3.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "-BATT")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "6f5b9603-dc64-4845-9483-ab0ac16dbb0a")
+		)
+		(pad "3" smd roundrect
+			(at -3.15 2.3 90)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "/3V3")
+			(pinfunction "VO")
+			(pintype "power_out")
+			(uuid "0bdcb602-12da-4092-b27b-97d7a2d35fcc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "1a0ac37e-2dba-4292-a407-5f38ca303fe5")
@@ -6463,7 +6741,6 @@
 				)
 			)
 		)
-		(path "/2782457e-105d-4889-b106-a9f9cf18d199")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(solder_mask_margin 0.05)
@@ -6983,7 +7260,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/b1df2ff5-bb0a-49ba-acbd-432e2a5df33b")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -11399,7 +11675,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/9b54ccee-822f-4094-99e9-493f3f67258a")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -13664,7 +13939,6 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/f52b05a6-cedf-41ee-8086-dc91ac689822")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -14147,7 +14421,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -2.016 0)
+			(at 3 0.2 0)
 			(layer "F.SilkS")
 			(uuid "330bcfff-03ae-40ab-b6e5-86d4e314ac5f")
 			(effects
@@ -14357,7 +14631,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8f35b4e0-8b34-4f56-b970-6c1a81446f45")
-		(at 173.0875 109.75)
+		(at 185.4875 110.8)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -15569,6 +15843,220 @@
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
+		(uuid "9d7aa912-873b-4ea9-93e9-c7c873791690")
+		(at 177.12 110.8)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor")
+		(property "Reference" "C2"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "31aa042e-8780-4082-af19-8ca3813da62c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "e00210aa-b12c-4f08-b180-9e899056e96d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722658e9-e0f4-4cd5-b631-0fddd5c39d72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "293653b3-1106-485f-8cfb-151e1bef5992")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b68893a6-18b1-4fb9-af68-80d7fd6c03d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/6fac00fe-e780-443f-af55-1d8ec9469eff")
+		(sheetname "/")
+		(sheetfile "MicroMousePower.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e56a505e-5588-49ac-83ab-583ac9cd4888")
+		)
+		(fp_line
+			(start -0.107836 0.36)
+			(end 0.107836 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a65852e6-9f7d-4040-8ec0-3faf9b0538d1")
+		)
+		(fp_line
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48d5c058-7108-46a5-9c59-384c1223840d")
+		)
+		(fp_line
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2e44792c-a074-4a4c-90e6-44f5310675c4")
+		)
+		(fp_line
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c9ccd85-3ab5-44d5-bf82-fcdc1f739cb1")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5a6dcb6-9c85-4cc2-bbf7-1ee074469964")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b4aeae8-0bc6-46ef-b3be-27989b1a0f13")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "646008d1-309e-4488-a6a8-0690f652c09c")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7224f43c-abab-48aa-b950-8cf23f9314a7")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "187ffcb8-d449-4230-bf59-caf713f72f77")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e6d5d430-5df7-48b3-a043-474144472bd5")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "/3V3")
+			(pintype "passive")
+			(uuid "d9e99522-be1c-45cf-bef4-6db048f68655")
+		)
+		(pad "2" smd roundrect
+			(at 0.48 0)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 2 "-BATT")
+			(pintype "passive")
+			(uuid "f52f10c7-0f26-4851-9e7e-ca3ef71fbe8c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric"
+		(layer "F.Cu")
 		(uuid "9f73f9e9-6cfb-4542-bf8c-213b73a287ed")
 		(at 174.502 88.228)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -15784,7 +16272,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "a0e88363-2a3b-4ad1-affe-a214766d665b")
-		(at 168.75 88.8)
+		(at 185.75 100.4)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
@@ -16642,7 +17130,7 @@
 	(footprint "Inductor_SMD:L_Cenker_CKCS4020"
 		(layer "F.Cu")
 		(uuid "a1d6878e-a7d1-41c8-a8fa-9f8486e8ff8d")
-		(at 165.65 92.4 180)
+		(at 173.25 108.8 180)
 		(descr "Inductor, Cenker, CKCS4020, 4.0x4.0x2.0mm, (https://www.ckcoil.com/file/upload/spae532/2023-07/11/202307110955366446.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "Inductor ckcs")
 		(property "Reference" "L1"
@@ -18953,7 +19441,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/f5d531b6-2643-4a49-9794-fb4cadbb40e1")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr smd)
@@ -19270,7 +19757,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/d4b81b70-e237-46bd-8750-863bff43f25a")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr smd)
@@ -19696,7 +20182,6 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/5f5b6d6a-0eee-4c94-9419-e15d6dfd44c9")
 		(sheetname "/")
 		(sheetfile "MicroMousePower.kicad_sch")
 		(attr smd)
