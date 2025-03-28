@@ -5514,22 +5514,10 @@
 		(uuid "32cfa2f2-b29f-4fb3-9d0a-685ff49e041b")
 	)
 	(junction
-		(at 265.43 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3919ccd9-974f-400a-b33f-5d9905da09cd")
-	)
-	(junction
 		(at 265.43 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a44573c-5eee-4932-8255-c317b90a44c9")
-	)
-	(junction
-		(at 265.43 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3de08c74-c243-4770-8168-f932234f6e8d")
 	)
 	(junction
 		(at 22.86 170.18)
@@ -5734,16 +5722,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f72c1884-030f-4aa1-9132-5a94ba85f9cf")
-	)
-	(wire
-		(pts
-			(xy 265.43 130.81) (xy 222.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02083499-274a-4394-8c28-c41da66f7a3f")
 	)
 	(wire
 		(pts
@@ -6087,16 +6065,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 121.92) (xy 265.43 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2306999d-ee3a-4923-baef-bceed80b8309")
-	)
-	(wire
-		(pts
 			(xy 115.57 97.79) (xy 115.57 99.06)
 		)
 		(stroke
@@ -6294,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "31fd9684-1ad7-45a0-8e44-fa0b79705d35")
+	)
+	(wire
+		(pts
+			(xy 261.62 130.81) (xy 222.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329011d3-87e2-4286-ae2e-c9f95bf4f24e")
 	)
 	(wire
 		(pts
@@ -6967,16 +6945,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 116.84) (xy 265.43 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3850e6-1544-4bb2-adb0-c186a80292ff")
-	)
-	(wire
-		(pts
 			(xy 220.98 78.74) (xy 220.98 80.01)
 		)
 		(stroke
@@ -7237,6 +7205,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 127) (xy 269.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6791dfe-6b27-43e8-bc98-bf1850e571e4")
+	)
+	(wire
+		(pts
 			(xy 151.13 104.14) (xy 156.21 104.14)
 		)
 		(stroke
@@ -7337,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 119.38) (xy 261.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30d7f30-c8ff-4e78-a0bd-eff5163cef8a")
+	)
+	(wire
+		(pts
 			(xy 48.26 93.98) (xy 57.15 93.98)
 		)
 		(stroke
@@ -7354,16 +7342,6 @@
 			(type default)
 		)
 		(uuid "b47d6418-8dd5-449b-91db-4cf71b502324")
-	)
-	(wire
-		(pts
-			(xy 265.43 127) (xy 265.43 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b57b193c-e3ca-4c12-b7d3-7dbc981bc5a2")
 	)
 	(wire
 		(pts
@@ -7657,6 +7635,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 119.38) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e915ae-b18f-4b9d-bdeb-eaafa1be4836")
+	)
+	(wire
+		(pts
 			(xy 175.26 104.14) (xy 175.26 106.68)
 		)
 		(stroke
@@ -7934,6 +7922,16 @@
 			(type default)
 		)
 		(uuid "ee2e1c5a-7a94-4ca3-9b7e-b99daeb0ecef")
+	)
+	(wire
+		(pts
+			(xy 265.43 116.84) (xy 265.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa0de6d-d40b-45c3-baea-c0af1fcbe0cc")
 	)
 	(wire
 		(pts
@@ -9428,6 +9426,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a17787d-a1a5-45e1-b88b-1ab0808fffe9")
+		(property "Reference" "#PWR010"
+			(at 20.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "010b9d04-354f-414c-9ba5-44c3f1baf67f")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 276.86 148.59 0)
 		(unit 1)
@@ -10490,7 +10554,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 127 90)
+		(at 269.24 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10499,7 +10563,7 @@
 		(fields_autoplaced yes)
 		(uuid "33ccfa61-6f3c-4407-9e6f-ee329eef60a9")
 		(property "Reference" "#PWR014"
-			(at 271.78 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 126.9999 90)
+			(at 273.05 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 127 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 127 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 127 0)
+			(at 269.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,72 +11644,6 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 20.32 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49639bba-026a-4f5b-87d3-7ef4a2d6d9c5")
-		(property "Reference" "#PWR010"
-			(at 20.32 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 20.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 20.32 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec558a2-9cf9-41da-a26b-b465078e308e")
-		)
-		(instances
-			(project ""
-				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
