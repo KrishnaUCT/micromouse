@@ -5460,10 +5460,22 @@
 		(uuid "093da59c-5e43-488d-99cb-051053849572")
 	)
 	(junction
+		(at 97.79 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2c8dfc-cae3-46ee-b854-14a3b4a022b5")
+	)
+	(junction
 		(at 40.64 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b1ba29b-cb77-417c-afe5-368a26e5c3d2")
+	)
+	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7101de-1998-458b-a4a5-8eee49fa6fce")
 	)
 	(junction
 		(at 184.15 24.13)
@@ -5494,6 +5506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fa7115c-9921-49ae-80c9-421a13fba233")
+	)
+	(junction
+		(at 97.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23cecfbc-8077-4c03-99e0-1edc1fb509e8")
 	)
 	(junction
 		(at 217.17 149.86)
@@ -5578,6 +5596,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5047918f-d227-4ad3-9678-00f0a9713ec8")
+	)
+	(junction
+		(at 153.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "592949f6-7565-4d41-b4fe-9b57fc1ab520")
+	)
+	(junction
+		(at 158.75 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d62e284-675d-4219-8b82-4bf364531bc1")
 	)
 	(junction
 		(at 78.74 114.3)
@@ -5748,10 +5778,22 @@
 		(uuid "cedbcdb1-3f83-4b52-9070-8b80e0ce5c0a")
 	)
 	(junction
+		(at 158.75 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d553d7aa-2524-4156-8580-414e8b9bdf2f")
+	)
+	(junction
 		(at 161.29 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d86b95e6-c78c-4c2f-9082-8f0e67e44c23")
+	)
+	(junction
+		(at 92.71 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8f0be24-989d-4535-8dd9-e90905f49919")
 	)
 	(junction
 		(at 270.51 35.56)
@@ -5770,6 +5812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08e14b9-acdd-4319-bbea-3b84321e33d5")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b4ce2e-c290-495d-b94d-236093ffd399")
 	)
 	(junction
 		(at 234.95 119.38)
@@ -5945,6 +5993,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 39.37) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b521898-f088-4b93-b887-06c6cd731bf6")
+	)
+	(wire
+		(pts
+			(xy 153.67 39.37) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6372b1-a692-4986-95cc-91a4718fbfab")
+	)
+	(wire
+		(pts
 			(xy 257.81 160.02) (xy 257.81 158.75)
 		)
 		(stroke
@@ -5952,6 +6020,16 @@
 			(type default)
 		)
 		(uuid "0bdd2995-5f36-4990-bc52-4fe33f5d48fd")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf061d0-cc45-4204-b592-c102491fb0f9")
 	)
 	(wire
 		(pts
@@ -6145,6 +6223,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 36.83) (xy 97.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d289d65-64b1-4f05-b62c-b144f1fea53b")
+	)
+	(wire
+		(pts
 			(xy 247.65 147.32) (xy 248.92 147.32)
 		)
 		(stroke
@@ -6202,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "22a3a35d-9965-4559-8c46-23574dde825d")
+	)
+	(wire
+		(pts
+			(xy 97.79 38.1) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b3a06c-523c-4079-a4f4-2efe577d0b6f")
 	)
 	(wire
 		(pts
@@ -6525,6 +6623,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 36.83) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbf75a1-6dba-48bf-80b1-4a3d4f16d093")
+	)
+	(wire
+		(pts
 			(xy 20.32 153.67) (xy 20.32 161.29)
 		)
 		(stroke
@@ -6822,6 +6930,16 @@
 			(type default)
 		)
 		(uuid "5e89eb8d-5f8e-4e88-9c73-470a49ba16e9")
+	)
+	(wire
+		(pts
+			(xy 158.75 36.83) (xy 158.75 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6195b8ea-193e-4d2f-a2ed-b6c8b74d4fb5")
 	)
 	(wire
 		(pts
@@ -7275,6 +7393,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 38.1) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9941b0ac-bfff-40c0-80e0-adcf33948c14")
+	)
+	(wire
+		(pts
 			(xy 46.99 114.3) (xy 46.99 116.84)
 		)
 		(stroke
@@ -7595,6 +7723,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 39.37) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e6cd55-8df7-41f6-aa0a-1aab4c29054b")
+	)
+	(wire
+		(pts
 			(xy 252.73 30.48) (xy 252.73 31.75)
 		)
 		(stroke
@@ -7872,6 +8010,16 @@
 			(type default)
 		)
 		(uuid "cdd3fb8b-d8ec-4c74-a842-8654fa380eb2")
+	)
+	(wire
+		(pts
+			(xy 92.71 36.83) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce26b982-e93c-4da7-bfed-229ab0b0605f")
 	)
 	(wire
 		(pts
@@ -8305,6 +8453,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 39.37) (xy 97.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaf815a-1b33-4c21-95b3-4c84a1df5a0b")
+	)
+	(wire
+		(pts
 			(xy 134.62 181.61) (xy 125.73 181.61)
 		)
 		(stroke
@@ -8352,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "fc5beb35-bcc5-4a45-96f1-fbeaed3d2578")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6b7cfe-0ae8-4932-8e56-baeb1e69d50a")
 	)
 	(wire
 		(pts
@@ -9265,7 +9433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 114.3 0)
 			(effects
 				(font
@@ -9772,6 +9940,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a0d3a29-b5d4-4ab6-b319-5f792758f75d")
+		(property "Reference" "R44"
+			(at 155.956 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 155.956 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 156.21 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b09bf0f3-7938-4c59-a48c-19b6cd31898e")
+		)
+		(pin "2"
+			(uuid "080891fa-6574-4c67-96a0-0c952f53f78e")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 186.69 0)
 		(unit 1)
@@ -9862,7 +10106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 245.11 67.31 0)
 			(effects
 				(font
@@ -9929,7 +10173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 276.86 148.59 0)
 			(effects
 				(font
@@ -10203,7 +10447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS62743YFPT:BGA8N40P2X4_87X156X50"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm"
 			(at 250.19 121.92 0)
 			(effects
 				(font
@@ -10388,7 +10632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -10455,7 +10699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 250.19 77.47 0)
 			(effects
 				(font
@@ -10599,7 +10843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 95.25 30.48 0)
 			(effects
 				(font
@@ -10909,7 +11153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 175.26 109.22 0)
 			(effects
 				(font
@@ -11118,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 40.64 26.67 0)
 			(effects
 				(font
@@ -11250,7 +11494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.82 152.4 0)
 			(effects
 				(font
@@ -11328,7 +11572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -11458,7 +11702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -11612,7 +11856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 217.17 156.21 0)
 			(effects
 				(font
@@ -11688,7 +11932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 255.27 143.51 0)
 			(effects
 				(font
@@ -12094,6 +12338,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5307343"
+			(at 118.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11f7551d-2ed9-467c-88c3-322978ca846e")
 		)
@@ -12293,7 +12546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 137.16 31.75 0)
 			(effects
 				(font
@@ -12362,7 +12615,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "2.2u"
 			(at 133.35 88.9 90)
 			(effects
 				(font
@@ -12370,7 +12623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 133.35 91.44 0)
 			(effects
 				(font
@@ -12390,6 +12643,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 133.35 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C135262"
+			(at 133.35 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 215.9 151.13 0)
 			(effects
 				(font
@@ -12570,7 +12832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 276.86 156.21 0)
 			(effects
 				(font
@@ -12646,7 +12908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 31.75 153.67 0)
 			(effects
 				(font
@@ -12680,6 +12942,82 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 95.25 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53a03049-d9df-47cf-8f6b-d56945d7172b")
+		(property "Reference" "R39"
+			(at 94.996 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 94.996 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 95.25 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e8ba7d0-f2e6-4086-9177-3994fb9e943b")
+		)
+		(pin "2"
+			(uuid "fdc5bc0c-d2e2-4fe0-8911-3537c882f73e")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -12777,7 +13115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -12920,7 +13258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 250.19 158.75 0)
 			(effects
 				(font
@@ -13080,7 +13418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61023DRLR:DRL0006A"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -13292,7 +13630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 250.19 71.12 0)
 			(effects
 				(font
@@ -13452,7 +13790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.11 147.32 0)
 			(effects
 				(font
@@ -13597,7 +13935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -13674,7 +14012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 271.78 116.84 0)
 			(effects
 				(font
@@ -13882,7 +14220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 114.3 0)
 			(effects
 				(font
@@ -14093,7 +14431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 217.17 147.32 0)
 			(effects
 				(font
@@ -14238,7 +14576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 198.12 31.75 0)
 			(effects
 				(font
@@ -14317,7 +14655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 167.64 0)
 			(effects
 				(font
@@ -14395,7 +14733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 267.97 38.1 0)
 			(effects
 				(font
@@ -14471,7 +14809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -14535,7 +14873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 245.11 86.36 0)
 			(effects
 				(font
@@ -14575,6 +14913,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 95.25 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d79d0aa-1018-418c-ae2b-497b5eec91b6")
+		(property "Reference" "R41"
+			(at 94.996 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 94.996 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 95.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 95.25 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a2b4f0c-4edf-46c0-a7ef-990dc1d5d908")
+		)
+		(pin "2"
+			(uuid "5818e6c3-63b0-4fdb-9627-30105f005a8c")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 274.32 73.66 90)
 		(unit 1)
@@ -14599,7 +15013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 68.58 0)
 			(effects
 				(font
@@ -14663,7 +15077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 265.43 147.32 0)
 			(effects
 				(font
@@ -14739,7 +15153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 264.16 81.28 0)
 			(effects
 				(font
@@ -14815,7 +15229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.08 81.28 0)
 			(effects
 				(font
@@ -14891,7 +15305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 175.26 22.86 0)
 			(effects
 				(font
@@ -15023,7 +15437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 64.77 97.79 0)
 			(effects
 				(font
@@ -15099,7 +15513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -15241,7 +15655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -15317,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 234.95 80.01 0)
 			(effects
 				(font
@@ -15555,7 +15969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 270.51 31.75 0)
 			(effects
 				(font
@@ -15697,7 +16111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 267.97 109.22 0)
 			(effects
 				(font
@@ -15763,7 +16177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.86 173.99 0)
 			(effects
 				(font
@@ -15896,7 +16310,7 @@
 				)
 			)
 		)
-		(property "Value" "200m"
+		(property "Value" "1"
 			(at 94.996 58.928 90)
 			(effects
 				(font
@@ -15904,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -15924,6 +16338,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 95.25 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16103,7 +16526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 220.98 74.93 0)
 			(effects
 				(font
@@ -16170,7 +16593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BZT52C3V0S:DIO_BZT52C3V0S"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 250.19 91.44 0)
 			(effects
 				(font
@@ -16377,7 +16800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -16442,7 +16865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 236.22 36.83 0)
 			(effects
 				(font
@@ -16587,7 +17010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 116.84 0)
 			(effects
 				(font
@@ -16665,7 +17088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 17.78 173.99 0)
 			(effects
 				(font
@@ -16744,7 +17167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BZT52C3V0S:DIO_BZT52C3V0S"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -16953,7 +17376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 19.05 163.83 0)
 			(effects
 				(font
@@ -17153,7 +17576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.8 153.67 0)
 			(effects
 				(font
@@ -17229,7 +17652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -17360,7 +17783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS4020"
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -17436,7 +17859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 279.4 148.59 0)
 			(effects
 				(font
@@ -17503,7 +17926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 273.05 38.1 0)
 			(effects
 				(font
@@ -17645,31 +18068,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 156.21 38.1 90)
+		(at 95.25 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c154a246-2109-41ed-8d68-20dcf3c7a61a")
-		(property "Reference" "R13"
-			(at 155.956 56.388 90)
+		(uuid "bec118fc-2ffc-44ba-adb3-96055130240d")
+		(property "Reference" "R40"
+			(at 94.996 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200m"
-			(at 155.956 58.928 90)
+		(property "Value" "1"
+			(at 94.996 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 38.1 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17678,7 +18101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 38.1 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17687,7 +18110,16 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 156.21 38.1 0)
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 95.25 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,15 +18128,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ce1e92e-eda8-499f-a4cf-8c4937989d57")
+			(uuid "a00e9753-6724-4d63-a8fa-240e0aa045bf")
 		)
 		(pin "2"
-			(uuid "3136d0d8-0767-4ec7-a9f8-052fe96e6d9e")
+			(uuid "4380c230-db72-4adb-8845-868053651fb2")
 		)
 		(instances
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
-					(reference "R13")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -17737,7 +18169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 41.91 0)
 			(effects
 				(font
@@ -17804,7 +18236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 20.32 50.8 0)
 			(effects
 				(font
@@ -17883,7 +18315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -17959,7 +18391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.07 116.84 0)
 			(effects
 				(font
@@ -18005,6 +18437,82 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc7f9f26-83d1-43bd-a45f-70028acb1735")
+		(property "Reference" "R42"
+			(at 155.956 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 155.956 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 156.21 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "181b203b-45d1-435f-8513-6fd529bc249c")
+		)
+		(pin "2"
+			(uuid "8d808385-7d6d-4415-a2ea-3c4f6fc2b666")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -18170,7 +18678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 121.92 0)
 			(effects
 				(font
@@ -18216,6 +18724,82 @@
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d510eeec-88a3-435b-b029-4a151c5a99a7")
+		(property "Reference" "R43"
+			(at 155.956 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 155.956 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 156.21 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "401bfb48-c4da-42c7-ae2a-d21239e33f6e")
+		)
+		(pin "2"
+			(uuid "b765fbef-edbd-4453-a384-3d13fbe42d3a")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -18314,7 +18898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 48.26 27.94 0)
 			(effects
 				(font
@@ -18366,6 +18950,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbcdc990-e2f3-4314-9f5e-c4ca22b29806")
+		(property "Reference" "R13"
+			(at 155.956 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 155.956 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22936"
+			(at 156.21 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9159ccac-42da-4e61-ba94-6659013d4ff1")
+		)
+		(pin "2"
+			(uuid "c4f5ec1d-959e-4cf1-bddf-85cb295dd5d1")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 274.32 92.71 90)
 		(unit 1)
@@ -18390,7 +19050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 87.63 0)
 			(effects
 				(font
@@ -18456,7 +19116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 156.21 30.48 0)
 			(effects
 				(font
@@ -18532,7 +19192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 25.4 0)
 			(effects
 				(font
@@ -18663,7 +19323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 22.86 165.1 0)
 			(effects
 				(font
@@ -18890,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 116.84 22.86 0)
 			(effects
 				(font
@@ -19024,7 +19684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 25.4 163.83 0)
 			(effects
 				(font
@@ -19100,7 +19760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.47 106.68 0)
 			(effects
 				(font
@@ -19176,7 +19836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 156.21 157.48 0)
 			(effects
 				(font
@@ -19195,6 +19855,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C131337"
 			(at 156.21 157.48 0)
 			(effects
 				(font
@@ -19245,7 +19914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -19321,7 +19990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 76.2 0)
 			(effects
 				(font
@@ -19388,7 +20057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 220.98 76.2 0)
 			(effects
 				(font
@@ -19466,7 +20135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 27.94 173.99 0)
 			(effects
 				(font
@@ -19542,7 +20211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 215.9 114.3 0)
 			(effects
 				(font
@@ -19609,7 +20278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 276.86 119.38 0)
 			(effects
 				(font
@@ -19688,7 +20357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -19766,7 +20435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.15 27.94 0)
 			(effects
 				(font
@@ -19842,7 +20511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 68.58 100.33 0)
 			(effects
 				(font
@@ -19909,7 +20578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 76.2 95.25 0)
 			(effects
 				(font
@@ -19988,7 +20657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 111.76 0)
 			(effects
 				(font
@@ -20067,7 +20736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.21 106.68 0)
 			(effects
 				(font
