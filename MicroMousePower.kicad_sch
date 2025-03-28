@@ -5460,6 +5460,12 @@
 		(uuid "093da59c-5e43-488d-99cb-051053849572")
 	)
 	(junction
+		(at 40.64 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b1ba29b-cb77-417c-afe5-368a26e5c3d2")
+	)
+	(junction
 		(at 184.15 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5494,6 +5500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23dc02be-27fd-414a-a8a5-d89a3f357153")
+	)
+	(junction
+		(at 26.67 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25299b8d-1828-4004-84ff-de2debb26771")
 	)
 	(junction
 		(at 22.86 176.53)
@@ -5604,6 +5616,12 @@
 		(uuid "6654f16e-2e2f-4d13-a3a6-89e6e86f3ce1")
 	)
 	(junction
+		(at 170.18 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a78db22-977b-411f-a3d5-4592d203d71b")
+	)
+	(junction
 		(at 22.86 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5632,6 +5650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75067535-dd7a-4080-9ea2-478eb53a97bc")
+	)
+	(junction
+		(at 111.76 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773600cc-12b8-4a77-81ac-de3a9a8ec36d")
 	)
 	(junction
 		(at 274.32 73.66)
@@ -5782,6 +5806,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f72c1884-030f-4aa1-9132-5a94ba85f9cf")
+	)
+	(junction
+		(at 49.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90d6b80-34ca-41b9-87dd-6547f2b576a0")
 	)
 	(wire
 		(pts
@@ -6185,7 +6215,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 153.67) (xy 31.75 153.67)
+			(xy 20.32 153.67) (xy 26.67 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6585,6 +6615,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 22.86) (xy 184.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44536e31-3967-46c1-a708-758986158701")
+	)
+	(wire
+		(pts
 			(xy 134.62 168.91) (xy 125.73 168.91)
 		)
 		(stroke
@@ -6682,6 +6722,16 @@
 			(type default)
 		)
 		(uuid "4f0e6085-7694-44c9-9ff9-64eb81e30e25")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb991fd-cba5-4067-bda1-c188b14d5aca")
 	)
 	(wire
 		(pts
@@ -6805,7 +6855,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 22.86) (xy 123.19 22.86)
+			(xy 99.06 22.86) (xy 111.76 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6945,6 +6995,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a5b6e1-2855-43b8-8843-865b50594413")
+	)
+	(wire
+		(pts
 			(xy 111.76 97.79) (xy 115.57 97.79)
 		)
 		(stroke
@@ -6972,6 +7032,16 @@
 			(type default)
 		)
 		(uuid "7a1154d6-1f60-44a1-abe5-0d1668e7ee40")
+	)
+	(wire
+		(pts
+			(xy 26.67 153.67) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5d870d-0af9-4005-ae13-008f7dfc301e")
 	)
 	(wire
 		(pts
@@ -7225,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 27.94) (xy 40.64 34.29)
+			(xy 40.64 27.94) (xy 40.64 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7262,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "9cf9c47b-b918-48d8-90d2-36e6f21966bb")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 123.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e513ee2-769e-4e80-876d-76e79e0036a4")
 	)
 	(wire
 		(pts
@@ -7495,7 +7575,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 93.98) (xy 57.15 93.98)
+			(xy 48.26 93.98) (xy 49.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8175,7 +8255,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 22.86) (xy 184.15 22.86)
+			(xy 160.02 22.86) (xy 170.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -10284,6 +10364,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27e5ff34-71a0-448a-b06c-961e2f5867ca")
+		(property "Reference" "TP17"
+			(at 50.8 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 47.498 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff02a71-178a-456c-9b71-449f9fa0cc25")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 250.19 77.47 0)
 		(unit 1)
@@ -10944,6 +11088,70 @@
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33d0ae2d-0b9a-4479-b56c-c2abc0a2be76")
+		(property "Reference" "TP21"
+			(at 39.624 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 38.608 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5a237e-f297-4f88-9d34-67e2524abcbf")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -12408,6 +12616,70 @@
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "510c7649-a0bb-46ab-ace5-4f85a890d1a1")
+		(property "Reference" "TP20"
+			(at 27.94 152.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 24.638 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db1e8526-1161-4430-9f20-01da7f19e956")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -14589,6 +14861,70 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85fa060f-3124-4edb-b688-a6ec4346891c")
+		(property "Reference" "TP23"
+			(at 171.45 21.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.148 20.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2fb3bd0-b545-4c63-8cb2-b17649b1d4db")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -18303,6 +18639,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 22.86 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06dbb61-1692-4a98-8fc7-5ffe56e5c624")
+		(property "Reference" "TP19"
+			(at 21.844 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 20.828 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ae0296-8371-4701-bff2-9727aa1d873d")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 175.26 0)
 		(unit 1)
@@ -18460,6 +18860,70 @@
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4a70674-6edf-4c0f-bf98-46209bc2d93c")
+		(property "Reference" "TP22"
+			(at 113.03 21.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.728 20.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7463b718-8709-47c0-879f-506a39ee5e25")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -19348,6 +19812,70 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb7beddb-875e-4fc4-9dcd-68e647e22bd9")
+		(property "Reference" "TP18"
+			(at 69.596 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 70.612 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d7d19d5-4604-4493-858f-4b9a720d6552")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
