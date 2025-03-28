@@ -13680,7 +13680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fac00fe-e780-443f-af55-1d8ec9469eff")
-		(property "Reference" "C2"
+		(property "Reference" "C52"
 			(at 261.62 118.1162 0)
 			(effects
 				(font
@@ -13743,7 +13743,7 @@
 		(instances
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
-					(reference "C2")
+					(reference "C52")
 					(unit 1)
 				)
 			)

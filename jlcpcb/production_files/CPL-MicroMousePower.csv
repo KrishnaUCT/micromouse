@@ -17,8 +17,6 @@ C9,10u,C_0805_2012Metric,191.25,-89.75,0.0,top
 D1,BZT52C3V0S,D_SOD-323,198.2,-67.15,-90.0,top
 D2,BZT52C3V0S,D_SOD-323,168.75,-88.8,0.0,top
 J1,USB_C_Receptacle_PowerOnly_6P,USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal,160.5,-105.9,0.0,top
-J2,Conn_02x16_Odd_Even,PinHeader_2x16_P2.54mm_Vertical,151.27,-89.81,180.0,top
-J3,Conn_01x02_Pin,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,174.0,-102.75,0.0,top
 L1,2.2u,L_Cenker_CKCS4020,165.65,-92.4,180.0,top
 L2,2.2u,L_Cenker_CKCS4020,185.85,-92.25,0.0,top
 L3,2.2u,L_Cenker_CKCS4020,180.075,-85.941,0.0,top
