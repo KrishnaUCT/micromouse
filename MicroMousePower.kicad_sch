@@ -10565,7 +10565,7 @@
 				(hide yes)
 			)
 		)
-		(property "TCSC" "C374070"
+		(property "LCSC" "C374070"
 			(at 250.19 121.92 0)
 			(effects
 				(font
