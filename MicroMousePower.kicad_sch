@@ -5389,6 +5389,12 @@
 		(uuid "35205997-a65b-4eb7-927a-fecea913b8c0")
 	)
 	(junction
+		(at 266.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3614c836-2275-4bfa-845d-ff73cc683a57")
+	)
+	(junction
 		(at 265.43 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5533,6 +5539,12 @@
 		(uuid "86d08cf3-ef31-48ff-b1de-80db359d69fa")
 	)
 	(junction
+		(at 274.32 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af94abe-84fc-4ec3-8fd8-0dc5e90885d3")
+	)
+	(junction
 		(at 22.86 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5575,10 +5587,22 @@
 		(uuid "c4ffe403-9340-40d5-ab96-c184f961e3ea")
 	)
 	(junction
+		(at 279.4 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73df4b3-bbd4-45c9-a61b-ac6742c95632")
+	)
+	(junction
 		(at 156.21 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cedbcdb1-3f83-4b52-9070-8b80e0ce5c0a")
+	)
+	(junction
+		(at 271.78 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4c3b099-d413-4c5a-a7ec-41c1d03a30ac")
 	)
 	(junction
 		(at 158.75 39.37)
@@ -5925,6 +5949,16 @@
 			(type default)
 		)
 		(uuid "1b76c9f1-73e5-4da7-98be-8a578bc526f1")
+	)
+	(wire
+		(pts
+			(xy 279.4 114.3) (xy 279.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c20058a-3511-40c2-8c6d-d237617710d7")
 	)
 	(wire
 		(pts
@@ -6318,6 +6352,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 114.3) (xy 274.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f62c2ca-120d-4bc7-be62-22110834ac74")
+	)
+	(wire
+		(pts
 			(xy 104.14 156.21) (xy 113.03 156.21)
 		)
 		(stroke
@@ -6345,6 +6389,16 @@
 			(type default)
 		)
 		(uuid "42459b40-d7e7-465f-a6ed-ecd3443340c2")
+	)
+	(wire
+		(pts
+			(xy 274.32 115.57) (xy 274.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42998e52-cb08-41ee-9f33-60f69c09a27e")
 	)
 	(wire
 		(pts
@@ -6398,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 116.84) (xy 259.08 116.84)
+			(xy 259.08 116.84) (xy 266.7 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6625,6 +6679,16 @@
 			(type default)
 		)
 		(uuid "65d718c0-bfb1-484f-92df-45c984e8a7a3")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e82c77-2c80-4660-abc2-d939b47888b9")
 	)
 	(wire
 		(pts
@@ -6948,6 +7012,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 114.3) (xy 271.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2ce040-909e-4f78-9892-794bf565d14d")
+	)
+	(wire
+		(pts
 			(xy 20.32 53.34) (xy 20.32 55.88)
 		)
 		(stroke
@@ -7208,6 +7282,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 118.11) (xy 279.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ccf1ec-4316-41c0-9ab5-a53fe6400c1d")
+	)
+	(wire
+		(pts
 			(xy 134.62 166.37) (xy 125.73 166.37)
 		)
 		(stroke
@@ -7428,6 +7512,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 115.57) (xy 274.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc70277-ae17-43fb-9ea0-ac1caa294f0e")
+	)
+	(wire
+		(pts
 			(xy 20.32 48.26) (xy 20.32 44.45)
 		)
 		(stroke
@@ -7555,6 +7649,16 @@
 			(type default)
 		)
 		(uuid "cb40e007-4d5c-4245-af30-8215bfa8d382")
+	)
+	(wire
+		(pts
+			(xy 266.7 116.84) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb90ba84-cb81-4033-a9fa-fb992ebeaae4")
 	)
 	(wire
 		(pts
@@ -7725,6 +7829,16 @@
 			(type default)
 		)
 		(uuid "dcfbb9c1-eb64-47c0-a6e6-6dc24fb3c7c6")
+	)
+	(wire
+		(pts
+			(xy 271.78 115.57) (xy 271.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfa5448-e2fc-4a54-af84-a70886190628")
 	)
 	(wire
 		(pts
@@ -8437,7 +8551,7 @@
 		(uuid "4f84ea23-f453-4a29-bdd1-93410f294144")
 	)
 	(label "3V3"
-		(at 262.89 116.84 0)
+		(at 279.4 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9250,6 +9364,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 269.24 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e602c3a-3d33-4bb7-b129-e9dcbb803b67")
+		(property "Reference" "R46"
+			(at 269.24 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 269.24 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47019"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5acf389d-bb54-49e9-b578-e359e39bc9bc")
+		)
+		(pin "1"
+			(uuid "9b2c70dd-40ee-443d-874c-6d4cae4ce177")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 158.75 0)
 		(unit 1)
@@ -9657,6 +9847,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 276.86 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a1bb30a-9f11-48bc-9517-d5bd7630eb08")
+		(property "Reference" "R48"
+			(at 276.606 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 276.606 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47019"
+			(at 276.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "037d924c-9d11-409f-b551-6abe2f6db241")
+		)
+		(pin "1"
+			(uuid "3f04c68d-3db1-4da2-9282-380738350a84")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 245.11 72.39 90)
 		(unit 1)
@@ -9926,6 +10192,82 @@
 			(project "MicroMousePower"
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 269.24 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24661ceb-1b92-41e6-85b0-7d45d9d3fb1d")
+		(property "Reference" "R45"
+			(at 263.652 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 263.652 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47019"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea97700c-9d63-411c-8f5f-93494c16fd58")
+		)
+		(pin "1"
+			(uuid "ccec3f6e-5b42-476c-8715-dd3fa670e0d4")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -17435,6 +17777,82 @@
 			(project ""
 				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 276.86 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b1424d-ef64-4acf-b633-04fc239a1e90")
+		(property "Reference" "R47"
+			(at 281.94 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 281.94 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C47019"
+			(at 276.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f52bc42c-80a6-4770-8b72-09f7264c7218")
+		)
+		(pin "1"
+			(uuid "c3990322-da62-42f9-a0a9-a364508e407b")
+		)
+		(instances
+			(project "MicroMousePower"
+				(path "/eac97a68-d510-4c4f-b246-1e946de69ee0"
+					(reference "R47")
 					(unit 1)
 				)
 			)
